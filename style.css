@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #CB3C43;
+    transition: 0.5s;
+}
+
+header {
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    gap: 80px;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+}
+
+.icons img {
+    height: 25px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.textBox h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.textBox p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textBox .btn .explore{
+    background: #FFFFFF;
+    border-radius: 22px;
+    border: none;
+    padding: 10px 45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 29px;
+    color: #CB3C43;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.textBox .btn .explore:hover {
+    background: #CB3C43;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.textBox .btn .more {
+    background: #CB3C43;
+    border-radius: 22px;
+    border: 2px solid #FFFFFF;
+    padding: 10px 45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.textBox .btn .more:hover {
+    background: #FFFFFF;
+    color: #CB3C43;
+}
+
+.imgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBox img {
+    height: 450px;
+    filter: drop-shadow(10px 20px 20px rgba(0, 0, 0, 0.17));
+}
